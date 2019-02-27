@@ -1,0 +1,6 @@
+{
+  "httpEndpoint": "https://eos.greymass.com",
+  "eosAccount": "",
+  "permission": "active",
+  "privateKey": ""
+}
