@@ -21,7 +21,7 @@ async function main() {
     console.log(new Date, { state });
     if (state.bidder != config.eosAccount) {
       let bid = parseInt(state.bid);
-      let newBid = bid * 2 + ".0000 FKC";
+      let newBid = parseInt(bid * 1.01) + ".0000 FKC";
 
       let actions = [
         {
